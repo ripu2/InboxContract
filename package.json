@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ripu2/InboxContract/issues"
   },
-  "homepage": "https://github.com/ripu2/InboxContract#readme"
+  "homepage": "https://github.com/ripu2/InboxContract#readme",
+  "dependencies": {
+    "solc": "0.4.17"
+  }
 }

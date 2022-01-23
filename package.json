@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ripu2/InboxContract/issues"
   },
-  "homepage": "https://github.com/ripu2/InboxContract#readme"
+  "homepage": "https://github.com/ripu2/InboxContract#readme",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.3",
+    "solc": "0.4.17",
+    "web3": "1.0.0-beta.26"
+  }
 }
